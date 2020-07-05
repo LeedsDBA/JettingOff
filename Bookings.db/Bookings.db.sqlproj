@@ -61,14 +61,14 @@
     <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\person_1.sql" />
-    <Build Include="dbo\Tables\airport_1.sql" />
-    <Build Include="dbo\Tables\flight_1.sql" />
-    <Build Include="dbo\Tables\country_1.sql" />
-    <Build Include="dbo\Tables\locations_1.sql" />
-    <Build Include="dbo\Tables\hotels_1.sql" />
-    <Build Include="dbo\Tables\booking_1.sql" />
-    <Build Include="dbo\Tables\bookingparty_1.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
+    <Build Include="dbo\Tables\airport.sql" />
+    <Build Include="dbo\Tables\booking.sql" />
+    <Build Include="dbo\Tables\bookingparty.sql" />
+    <Build Include="dbo\Tables\country.sql" />
+    <Build Include="dbo\Tables\flight.sql" />
+    <Build Include="dbo\Tables\hotels.sql" />
+    <Build Include="dbo\Tables\locations.sql" />
+    <Build Include="dbo\Tables\person.sql" />
   </ItemGroup>
 </Project>
